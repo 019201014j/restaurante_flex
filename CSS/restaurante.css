@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(248, 244, 239);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 .medio{
     text-align: center;
 }
 .barra_menu{
-    background-color: rgb(255, 246, 235);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     list-style: none;
     text-align: center;
@@ -15,10 +16,15 @@ body {
     font-size: 20px;
     /* margin: 27px 0px; */
     padding: 10px 90px;
-    border: 1px black solid;
+    border: 1px rgb(255, 255, 255) solid;
 }
 .elegir {
     text-align: boot;
     display: inline-block;
-    border: 1px black solid;
+    border: 1px rgb(255, 255, 255) solid;
+}
+.final {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 102, 102);
 }
