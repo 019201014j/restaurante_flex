@@ -48,52 +48,52 @@ html {
 .linecaja{
     border: 0.3rem black solid;
     display: flex;
+    /* Especificar qué elementos distribuir como cajas flexibles */
 }
 .linecaja1{
     border: 0.3rem black solid;
     display: flex;
     flex-direction: column;
+    /* columnas*/
 }
 .linecaja2{
     border: 0.3rem black solid;
     display: flex;
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex: 200px;
+    /* envase para artos elementos */
 }
 .linecaja3{
     border: 0.3rem black solid;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* taquigrafía de flujo flexible */
 }
 .linecaja4{
     border: 0.3rem black solid;
     display: flex;
-    flex-direction: row-reverse;
+    flex: 1 200px;
+    flex: 2 400px;
+    /* Tamaño flexible de elementos flexibles */
 }
 .linecaja5{
     border: 0.3rem black solid;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: nowrap;
+    order: 2;
+    /* pedido de articulo flexibles */
 }
 .linecaja6{
     border: 0.3rem black solid;
+    flex: 3 200px;
     display: flex;
-    flex: 1 200px;
-    flex: 2 400px;
-    /*  */
+    flex-flow: column;
+    /*Cajas flexibles anidadas*/
 }
 .linecaja7{
     border: 0.3rem black solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* acomoda de forma horizontal y vertical las cajas dentro, con una espacio igual a todos */
-}
-.linecaja8{
-    border: 0.3rem black solid;
-    display: flex;
-    align-items: flex-start;
+    display: grid;
 }
 .medio{
     text-align: center;
@@ -105,11 +105,11 @@ html {
     text-align: center;
 }
 .barra_menu li{
-    display: inline-block;
-    font-size: 20px;
-    /* margin: 27px 0px; */
-    padding: 10px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border: 1px rgb(255, 255, 255) solid;
+    /* Alineación horizontal y vertical */
 }
 .elegir {
     text-align: boot;
