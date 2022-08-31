@@ -42,12 +42,58 @@ html {
     height: 26rem;
 }
 .caja8{
-    width: 300rem;
+    width: 180rem;
     height: 10rem;
 }
 .linecaja{
     border: 0.3rem black solid;
     display: flex;
+}
+.linecaja1{
+    border: 0.3rem black solid;
+    display: flex;
+    flex-direction: column;
+}
+.linecaja2{
+    border: 0.3rem black solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.linecaja3{
+    border: 0.3rem black solid;
+    display: flex;
+    flex-direction: row;
+}
+.linecaja4{
+    border: 0.3rem black solid;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.linecaja5{
+    border: 0.3rem black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+}
+.linecaja6{
+    border: 0.3rem black solid;
+    display: flex;
+    flex: 1 200px;
+    flex: 2 400px;
+    /*  */
+}
+.linecaja7{
+    border: 0.3rem black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* acomoda de forma horizontal y vertical las cajas dentro, con una espacio igual a todos */
+}
+.linecaja8{
+    border: 0.3rem black solid;
+    display: flex;
+    align-items: flex-start;
 }
 .medio{
     text-align: center;
